@@ -69,10 +69,10 @@ jobs:
           docker push $ECR_REGISTRY/geppetto-generatedcode-newangfun-8344-securitymanager:$IMAGE_TAG
           echo "Successfully build the  docker image for securitymanager and pushed to aws ecr"
           
-          cd ../gepfilemanger
-          docker build -t $ECR_REGISTRY/geppetto-generatedcode-newangfun-8344-gepfilemanger:$IMAGE_TAG .
-          docker push $ECR_REGISTRY/geppetto-generatedcode-newangfun-8344-gepfilemanger:$IMAGE_TAG
-          echo "Successfully build the  docker image for gepfilemanger and pushed to aws ecr"
+          cd ../gepfilemanager
+          docker build -t $ECR_REGISTRY/geppetto-generatedcode-newangfun-8344-gepfilemanager:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/geppetto-generatedcode-newangfun-8344-gepfilemanager:$IMAGE_TAG
+          echo "Successfully build the  docker image for gepfilemanager and pushed to aws ecr"
           
           cd ../gcam
           docker build -t $ECR_REGISTRY/geppetto-generatedcode-newangfun-8344-gcam:$IMAGE_TAG .
