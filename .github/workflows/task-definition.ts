@@ -159,7 +159,7 @@ module.exports = {
                 }
             ],
             "environmentFiles": null,
-            "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/newangfun_8344?authSource=admin"},{"name":"CAMUNDAURL","value":"http://127.0.0.1:8002"}],
+            "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/newangfun_8344?authSource=admin"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"}],
             "secrets": null,
             "mountPoints": [
                 {
